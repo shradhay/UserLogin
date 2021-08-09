@@ -1,0 +1,19 @@
+{
+  "name": "userlogin",
+  "version": "1.0.0",
+  "description": "Repository is having code base to facilitate user with login functionality using Node JS, mongodb &amp; React tech stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shradhay/UserLogin.git"
+  },
+  "author": "shraddha yannawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shradhay/UserLogin/issues"
+  },
+  "homepage": "https://github.com/shradhay/UserLogin#readme"
+}
