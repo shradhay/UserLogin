@@ -1,3 +1,4 @@
+
 const mongoose=require("mongoose");
 const employeeScheme=new mongoose.Schema({
     firstname:{
@@ -9,11 +10,6 @@ const employeeScheme=new mongoose.Schema({
         require:true
     },
     email:{
-        type:String,
-        require:true,
-        unique:true
-    },
-    gender:{
         type:String,
         require:true,
         unique:true
@@ -45,4 +41,13 @@ const employeeScheme=new mongoose.Schema({
 })
 // collections
 const Register =new mongoose.model("Register",employeeScheme)
-modules.exports=Register;
+// const createDocument=async ()=>{
+//     const demo=new  Register({
+//         firstname:"testname",
+//         lastname:"testlastname"
+//     })
+//     const result= await demo.save()
+//     console.log(result)
+// }
+// createDocument();
+module.exports=Register;

@@ -8,19 +8,16 @@
     <link href="/templates/partials/register.hbs"/>
 </head>
 <body>
+    {{>navbar}}
     <form action="/register" method="POST">
     <input type="text" placeholder="firstname" name="firstname"/><br>
     <input type="text" placeholder="lastname" name="lastname"/><br>
     <input type="email" placeholder="email" name="email"/><br>
-    <input type="text" placeholder="123456789" name="number"/><br>
-      <input type="number" placeholder="age" name="age"/><br>
-    <input type="radio" id="male" name="fav_language" value="gender">
-    <label for="html">male</label><br>
-    <input type="radio" id="female" name="fav_language" value="gender">
-    <label for="css">female</label><br>
+    <input type="number" placeholder="123456789" name="phonenumber"/><br>
+    <input type="number" placeholder="age" name="age"/><br>
     <input type="password" placeholder="password" name="password"/><br>
     <input type="password" placeholder="confirmpassword" name="confirmpassword"/><br>
-    <button type="submit">Submit</button>
+    <input type="submit" value="Register">
 
 
 

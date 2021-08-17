@@ -9,13 +9,14 @@
    
 </head>
 <body>
+    {{>navbar}}
     
-     <form class="box" action="index.html" >
+     <form action="/login"  method="POST">
         
         
-            <input type="textbox" name="" placeholder="username">
-            <input type="textbox" name="" placeholder="password">
-            <input type="button" value="Login">
+            <input type="textbox" name="email" placeholder="username">
+            <input type="password" name="password" placeholder="password">
+            <input type="submit" value="login">
             <a href="Forgot-passsword">Forgot-password</a>
        
     </form>
